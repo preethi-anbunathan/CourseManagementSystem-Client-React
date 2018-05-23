@@ -8,7 +8,7 @@ class CourseManager extends React.Component {
         return (
             <Router>
                 <div className="container-fluid">
-                    <h1>Course Manager</h1>
+                    <h1><center><font color="white"> Course Manager</font></center></h1>
                     <Route path="/courses"
                            component={CourseList}>
                     </Route>

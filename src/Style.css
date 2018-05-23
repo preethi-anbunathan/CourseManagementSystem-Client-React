@@ -7,6 +7,9 @@ body{
     background-color: #fff;
 }
 
+.topnav {
+    margin-top: 100px;
+}
 /* Header/Blog Title */
 .header {
     padding: 10px;

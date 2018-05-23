@@ -84,8 +84,8 @@ class CourseList extends React.Component {
                                    className="form-control"
                                    placeholder="Course Name"/>
                         </td>
-                        <td>Me</td>
-                        <td>Today</td>
+                        <td align="center"><b>Me</b></td>
+                        <td align="center"><b>Today</b></td>
                         <td>
                             <button onClick={this.createCourse}
                                     className="btn btn-primary">Add</button>

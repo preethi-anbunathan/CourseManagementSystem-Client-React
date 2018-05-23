@@ -39,7 +39,7 @@ class CourseEditor extends React.Component {
     render() {
         return (
             <div>
-                <h3>{this.renderTitle()}</h3>
+                <h3><center><font color="white"> Course: {this.renderTitle()}</font></center></h3>
                 <ModuleList courseId={this.state.courseId}/>
             </div>
         )

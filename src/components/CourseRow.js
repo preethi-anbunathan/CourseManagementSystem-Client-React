@@ -15,11 +15,13 @@ class CourseRow extends React.Component {
                         {this.props.course.title}
                     </Link>
                 </td>
-                <td>
-                    {'me'}
+                <td align="center"><b>
+                    {'Me'}
+                </b>
                 </td>
-                <td>
+                <td align="center"> <b>
                     {this.props.course.modified.toString().split('T')[0]}
+                </b>
                 </td>
                 <td>
                     <button className="btn btn-danger"
