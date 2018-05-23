@@ -2,6 +2,7 @@ import React from 'react';
 import LessonService from "../services/LessonService";
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import LessonTabItem from "../components/LessonTabItem";
+import TopicPills from './TopicPills'
 
 export default class LessonTabs extends React.Component {
     constructor(props) {
@@ -92,7 +93,7 @@ export default class LessonTabs extends React.Component {
         } else {
             return (
                 <div>
-                    <ul className="nav nav-pills justify-content-right">
+                    <ul className="nav nav-tabs justify-content-right">
                         {this.renderLessons()}
                         <li id="addLessonFld" className="nav-item">
                             <a className="nav-link" href="#">
@@ -107,12 +108,15 @@ export default class LessonTabs extends React.Component {
                                     <div className='col-1'>
                                         <button className='btn btn-success btn-sm'
                                                 onClick={this.createLesson}>
-                                            <i className="fa fa-check"/>
+                                            <i className="fa fa-plus-square"/>
                                         </button>
                                     </div>
                                 </div>
                             </a>
                         </li>
+                    </ul>
+                    <ul><br/>
+                        <TopicPills/>
                     </ul>
                 </div>
             )

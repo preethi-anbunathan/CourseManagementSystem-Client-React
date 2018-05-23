@@ -66,13 +66,15 @@ class CourseList extends React.Component {
     render() {
         return (
             <div>
-                <h2>Course List</h2>
+                <div className="header">
+                    <h2><font color="white">Course List</font></h2>
+                </div>
                 <table className="table">
                     <thead>
                     <tr>
-                        <th>Title</th>
-                        <th>Owner</th>
-                        <th>Last modified</th>
+                        <th><center><font color="white">Title</font></center></th>
+                        <th><center><font color="white">Owner</font></center></th>
+                        <th><center><font color="white">Last modified</font></center></th>
                         <th></th>
                     </tr>
                     <tr>
@@ -80,10 +82,10 @@ class CourseList extends React.Component {
                             <input onChange={this.titleChanged}
                                    id="titleFld"
                                    className="form-control"
-                                   placeholder="CSXXXX"/>
+                                   placeholder="Course Name"/>
                         </td>
-                        <td>me</td>
-                        <td>today</td>
+                        <td>Me</td>
+                        <td>Today</td>
                         <td>
                             <button onClick={this.createCourse}
                                     className="btn btn-primary">Add</button>
