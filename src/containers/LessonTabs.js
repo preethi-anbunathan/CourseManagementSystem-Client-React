@@ -2,6 +2,8 @@ import React from 'react';
 import LessonService from "../services/LessonService";
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import LessonTabItem from "../components/LessonTabItem";
+import LessonEditor from "./LessonEditor";
+import {BrowserRouter as Router,Route} from 'react-router-dom'
 import TopicPills from './TopicPills'
 
 export default class LessonTabs extends React.Component {
@@ -87,6 +89,9 @@ export default class LessonTabs extends React.Component {
             lessons
         )
     }
+    renderTopics() {
+        return <Route path='/course/:courseId/module/:moduleId/lesson/:lessonId' component={LessonEditor}/>;
+    }
     render() {
         if(this.state.lessons === null) {
             return null;
@@ -115,9 +120,12 @@ export default class LessonTabs extends React.Component {
                             </a>
                         </li>
                     </ul>
-                    <ul><br/>
-                        <TopicPills/>
-                    </ul>
+                    {/*<ul><br/>*/}
+                    {/*<TopicPill lessonId={this.state.lessonId} moduleId={this.state.moduleId} courseId={this.state.courseId}/>*/}
+                    {/*</ul>*/}
+                    <div className='col-8'>
+                        {this.renderTopics()}
+                    </div>
                 </div>
             )
         }

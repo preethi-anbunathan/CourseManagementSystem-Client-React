@@ -20,7 +20,7 @@ class CourseRow extends React.Component {
                 </b>
                 </td>
                 <td align="center"> <b>
-                    {this.props.course.modified.toString().split('T')[0]}
+                    {this.props.course.modified.toString().replace("T"," ").split('.000+0000')}
                 </b>
                 </td>
                 <td>

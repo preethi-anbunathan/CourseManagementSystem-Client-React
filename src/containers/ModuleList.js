@@ -82,7 +82,7 @@ export default class ModuleList extends React.Component {
         return (
             <Router>
                 <div className='row'>
-                    <div className="col-5">
+                    <div className="col-4">
 
                         <h4><center>Modules for Course ID:
                             {this.state.courseId}</center></h4>

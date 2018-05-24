@@ -8,6 +8,7 @@ import './Style.css';
 import {BrowserRouter as Router, Link, Route}
     from 'react-router-dom'
 import CourseEditor from "./containers/CourseEditor";
+import ModuleEditor from "./containers/ModuleEditor";
 
 const Home = () => {
     return(
@@ -32,22 +33,27 @@ const Home = () => {
 };
 
 
-const App = () => {
-    return(
-        <Router>
-            <div>
-                <Route exact path='/'
-                       component={Home}/>
-                <Route exact path='/courses'
-                       component={CourseManager}/>
-                <Route exact path='/CourseEditor/:courseId'
-                       component={CourseEditor}/>
-
-            </div>
-        </Router>);
-};
+// const App = () => {
+//     return(
+//         <Router>
+//             <div>
+//                 <Route exact path='/'
+//                        component={Home}/>
+//                 <Route exact path='/courses'
+//                        component={CourseManager}/>
+//                 <Route exact path='/CourseEditor/:courseId'
+//                        component={CourseEditor}/>
+//                 <Route exact path='CourseEditor/:courseId/ModuleEditor/:moduleId'
+//                        component={ModuleEditor}/>
+//
+//             </div>
+//         </Router>);
+// };
 
 ReactDOM.render(
-    <App/>,
+
+    <div className="container-fluid">
+        <CourseManager/>
+    </div>,
     document.getElementById('root')
 );
