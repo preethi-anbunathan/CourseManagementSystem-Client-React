@@ -1,8 +1,7 @@
 import React from 'react';
-import LessonService from "../services/LessonService";
 import TopicService from "../services/TopicService"
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import TopicItem from "../components/TopicItem";
+import TopicTabItem from "../components/TopicTabItem";
 
 
 export default class TopicPill extends React.Component {
@@ -88,12 +87,12 @@ export default class TopicPill extends React.Component {
             return null;
         }
         let topics = this.state.topics.map((topic) => {
-            return <TopicItem key={topic.id}
-                              topic={topic}
-                              lessonId={this.state.lessonId}
-                              moduleId={this.state.moduleId}
-                              courseId={this.state.courseId}
-                              delete={this.deleteTopic}/>
+            return <TopicTabItem key={topic.id}
+                                 topic={topic}
+                                 lessonId={this.state.lessonId}
+                                 moduleId={this.state.moduleId}
+                                 courseId={this.state.courseId}
+                                 delete={this.deleteTopic}/>
         });
         return (
             topics
@@ -108,7 +107,7 @@ export default class TopicPill extends React.Component {
                     <ul className="nav nav-pills justify-content-right">
                         {this.renderTopics()}
                         <li id="addLessonFld" className="nav-item">
-                            <a className="nav-link" href="#">
+                            <a className="nav-link" href="localhost:3000/courses/:courseId/module/:moduleId">
                                 <div className='row'>
                                     <div className='col-8'>
                                         <input className='form-control form-control-sm'

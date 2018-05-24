@@ -33,27 +33,23 @@ const Home = () => {
 };
 
 
-// const App = () => {
-//     return(
-//         <Router>
-//             <div>
-//                 <Route exact path='/'
-//                        component={Home}/>
-//                 <Route exact path='/courses'
-//                        component={CourseManager}/>
-//                 <Route exact path='/CourseEditor/:courseId'
-//                        component={CourseEditor}/>
-//                 <Route exact path='CourseEditor/:courseId/ModuleEditor/:moduleId'
-//                        component={ModuleEditor}/>
-//
-//             </div>
-//         </Router>);
-// };
+const App = () => {
+    return(
+        <Router>
+            <div>
+                <Route exact path='/'
+                       component={Home}/>
+                <Route exact path='/courses'
+                       component={CourseManager}/>
+                <Route exact path='/CourseEditor/:courseId'
+                       component={CourseEditor}/>
+
+            </div>
+        </Router>);
+};
 
 ReactDOM.render(
 
-    <div className="container-fluid">
-        <CourseManager/>
-    </div>,
+    <App/>,
     document.getElementById('root')
 );

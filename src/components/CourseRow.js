@@ -10,17 +10,19 @@ class CourseRow extends React.Component {
     render() {
         return (
             <tr>
-                <td>
+                <td className="td-color">
                     <Link to={`/course/${this.props.course.id}`} id={this.props.course.id}>
                         {this.props.course.title}
                     </Link>
                 </td>
-                <td align="center"><b>
+                <td align="center" ><b>
                     {'Me'}
+
                 </b>
                 </td>
-                <td align="center"> <b>
+                <td align="center" className="td-color"> <b>
                     {this.props.course.modified.toString().replace("T"," ").split('.000+0000')}
+
                 </b>
                 </td>
                 <td>

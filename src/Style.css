@@ -1,7 +1,7 @@
 body{
     background-position: center center;
     background-attachment: fixed;
-    background-image:url("image/BackgroundImg.png");
+    background-image:url("image/BackgroundImg.jpg");
     background-size: cover ;
     background-repeat: no-repeat;
     background-color: #fff;
@@ -20,16 +20,24 @@ body{
     font-size: 50px;
 }
 
+
+
 a:link, a:visited {
-    background-color: black;
+    font-weight: bold;
     font-size: 20px;
-    color: white;
+    color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border: 2px solid firebrick;
 }
 
 a:hover, a:active {
-    background-color: black;
+    border: 2px solid firebrick;
+    color: goldenrod;
+}
+
+.td-color {
+    color: white;
 }

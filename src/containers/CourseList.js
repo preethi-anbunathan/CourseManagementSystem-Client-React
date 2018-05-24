@@ -69,7 +69,7 @@ class CourseList extends React.Component {
                 <div className="header">
                     <h2><font color="white">Course List</font></h2>
                 </div>
-                <table className="table">
+                <table className="table table-active">
                     <thead>
                     <tr>
                         <th><center><font color="white">Title</font></center></th>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-export default class TopicItem extends React.Component {
+export default class TopicTabItem extends React.Component {
     constructor(props) {
         super(props);
     }

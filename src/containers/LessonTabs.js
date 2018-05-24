@@ -4,7 +4,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import LessonTabItem from "../components/LessonTabItem";
 import LessonEditor from "./LessonEditor";
 import {BrowserRouter as Router,Route} from 'react-router-dom'
-import TopicPills from './TopicPills'
+
 
 export default class LessonTabs extends React.Component {
     constructor(props) {
@@ -101,7 +101,7 @@ export default class LessonTabs extends React.Component {
                     <ul className="nav nav-tabs justify-content-right">
                         {this.renderLessons()}
                         <li id="addLessonFld" className="nav-item">
-                            <a className="nav-link" href="#">
+                            <a className="nav-link" href="localhost:3000/courses/:courseId/module/:moduleId">
                                 <div className='row'>
                                     <div className='col-8'>
                                         <input className='form-control form-control-sm'
@@ -120,9 +120,6 @@ export default class LessonTabs extends React.Component {
                             </a>
                         </li>
                     </ul>
-                    {/*<ul><br/>*/}
-                    {/*<TopicPill lessonId={this.state.lessonId} moduleId={this.state.moduleId} courseId={this.state.courseId}/>*/}
-                    {/*</ul>*/}
                     <div className='col-8'>
                         {this.renderTopics()}
                     </div>

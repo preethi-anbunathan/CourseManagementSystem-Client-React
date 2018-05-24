@@ -1,5 +1,5 @@
 import React from 'react';
-import TopicPills from './TopicPills'
+import TopicPills from './TopicTabs'
 
 
 export default class LessonEditor
