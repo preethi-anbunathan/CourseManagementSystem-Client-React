@@ -21,7 +21,7 @@ export default class LessonTabItem extends React.Component {
                             <button className="btn btn-danger btn-sm"  onClick={()=>
                             {this.props.delete
                             (this.props.lesson.id)}}>
-                    <i className="fa fa-trash"></i>
+                    <i className="fa fa-times"></i>
                 </button>
                 </span>
                 </NavLink>

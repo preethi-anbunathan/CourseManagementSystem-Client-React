@@ -22,7 +22,7 @@ export default class ModuleListItem
                         onClick={(event) =>
                 {this.props.delete
                 (event, this.props.courseId, this.props.module.id)}}>
-                    <i className="fa fa-trash"></i>
+                    <i className="fa fa-times"></i>
                 </button>
                 </span>
             </li>

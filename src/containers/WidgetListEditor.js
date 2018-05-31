@@ -1,6 +1,6 @@
 import React from 'react';
-import TopicPill from './TopicPill';
-import Topicitem from '../components/TopicItem'
+import TopicPill from './TopicTabs';
+import TopicTabItem from '../components/TopicTabItem'
 import WidgetListContainer from './widgetList'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import {createStore} from 'redux'

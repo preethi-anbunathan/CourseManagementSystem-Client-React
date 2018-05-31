@@ -51,15 +51,15 @@ class WidgetList extends Component {
         </head>
         <body>
         <div className="container pt-5">
-            <div className="row flex-row-reverse pr-2 pb-3">
-                <div className="d-flex float-right my-auto">
+            <div className="row flex-row-reverse pr-20 pb-15">
+                <div className="d-flex pr-20 m-auto float-right">
 
                     <label className="switch m-auto">
                         <input type="checkbox" onClick={this.props.preview}/>
                         <span className="slider round"></span>
                     </label>
                 </div>
-                <div className="d-flex pr-2">
+                <div className="d-flex pr-2 float-lg-right">
                     <button className="btn btn-success m-auto" hidden={this.props.previewMode}
                             onClick={this.props.save}>
                         Save
@@ -78,8 +78,8 @@ class WidgetList extends Component {
         </div>
 
         <div className="container pt-1">
-            <div className="row flex-row-reverse pr-2 pb-3">
-                <div className="row flex-row-reverse pr-2 pb-3">
+            <div className="row flex-row-reverse pr-20 pb-15">
+                <div className="row flex-row-reverse pr-20 pb-15  m-auto">
                     <button className="btn btn-danger" onClick={this.props.addWidget}><i
                         className="fas fa-plus-square"></i>
                     </button>

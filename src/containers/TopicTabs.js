@@ -2,7 +2,8 @@ import React from 'react';
 import TopicService from "../services/TopicService"
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import TopicTabItem from "../components/TopicTabItem";
-
+import {BrowserRouter as Router,Route} from 'react-router-dom'
+import WidgetListEditor from './WidgetListEditor'
 
 export default class TopicPill extends React.Component {
     constructor(props) {
@@ -98,6 +99,9 @@ export default class TopicPill extends React.Component {
             topics
         )
     }
+    renderWidgets() {
+        return <Route path='/topic/:topicId' component={WidgetListEditor}/>;
+    }
     render() {
         if(this.state.topics === null) {
             return null;
@@ -126,7 +130,10 @@ export default class TopicPill extends React.Component {
                             </a>
                         </li>
                     </ul>
-
+                    <div>
+                        <Route path={`/course/:courseId/module/:moduleId/lesson/:lessonId/topic/:topicId`}
+                               component={WidgetListEditor}/>
+                    </div>
                 </div>
             )
         }
