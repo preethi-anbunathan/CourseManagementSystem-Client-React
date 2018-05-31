@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba63a9ad-ed85-4850-8b83-af80ae447658" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LessonTabItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LessonTabItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModuleListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModuleListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopicTabItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopicTabItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/TopicTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/TopicTabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/WidgetListEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/WidgetListEditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/widgetList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/widgetList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widget.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,16 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="widget.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="widget.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/widget.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="498" column="76" selection-start-line="498" selection-start-column="46" selection-end-line="498" selection-end-column="76" />
+            <state relative-caret-position="-972">
+              <caret line="454" lean-forward="true" selection-start-line="454" selection-end-line="454" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widgetList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="widgetList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/widgetList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -160,7 +152,6 @@
         <option value="$PROJECT_DIR$/src/actions/index.js" />
         <option value="$PROJECT_DIR$/src/containers/LessonEditor.js" />
         <option value="$PROJECT_DIR$/src/reducers/widgetReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/widget.js" />
         <option value="$PROJECT_DIR$/src/containers/TopicTabs.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/containers/WidgetListEditor.js" />
@@ -168,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/components/ModuleListItem.js" />
         <option value="$PROJECT_DIR$/src/components/TopicTabItem.js" />
         <option value="$PROJECT_DIR$/src/containers/widgetList.js" />
+        <option value="$PROJECT_DIR$/src/components/widget.js" />
       </list>
     </option>
   </component>
@@ -296,12 +288,12 @@
       <workItem from="1527189268328" duration="17000" />
       <workItem from="1527601171231" duration="30648000" />
       <workItem from="1527729987239" duration="846000" />
-      <workItem from="1527732190773" duration="3454000" />
+      <workItem from="1527732190773" duration="3626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67479000" />
+    <option name="totallyTimeSpent" value="67651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -634,17 +626,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="498" column="76" selection-start-line="498" selection-start-column="46" selection-end-line="498" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/widgetList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="454" lean-forward="true" selection-start-line="454" selection-end-line="454" />
         </state>
       </provider>
     </entry>

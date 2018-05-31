@@ -5,7 +5,6 @@ import * as actions from '../actions'
 import * as constants from '../constants'
 
 
-///////////////////////////////////////// Heading //////////////////////////////////////////////////////////////////////
 const Heading = ({widget, preview, headingTextChanged, headingSizeChanged, headingNameChanged}) => {
   let selectElem
   let inputElem
@@ -96,9 +95,7 @@ const stateToPropsMapper = state => ({
 })
 const HeadingContainer = connect(stateToPropsMapper, dispathToPropsMapper)(Heading)
 
-///////////////////////////////////////// Heading End //////////////////////////////////////////////////////////////////
 
-//////////////////////////////////////// Paragraph /////////////////////////////////////////////////////////////////////
 const Paragraph = ({widget, preview, paraTextChanged, paraNameChanged}) => {
     let inputElem
     let nameElem
@@ -175,9 +172,7 @@ const stateToPropsMapperPara = state => ({
 
 const ParaContainer = connect(stateToPropsMapperPara,dispatchToPropsMapperPara)(Paragraph)
 
-///////////////////////////////////////// Paragraph End ////////////////////////////////////////////////////////////////
 
-//////////////////////////////////////// Image /////////////////////////////////////////////////////////////////////////
 const Image = ({widget, preview, imageTextChanged, imageNameChanged}) => {
     let inputElem3
     let nameElem
@@ -253,9 +248,6 @@ const dispatchToPropsMapperImage = dispatch =>
 
 const ImageContainer = connect(stateToPropsMapperImage,dispatchToPropsMapperImage)(Image)
 
-//////////////////////////////////////// Image End /////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////// List /////////////////////////////////////////////////////////////////////////
 const List = ({widget, preview, listTextChanged, listTypeChanged, listNameChanged}) =>{
     let selectElem2
     let inputElem2
@@ -369,10 +361,6 @@ const textToUnorderedList = (text) =>
 }
 
 
-///////////////////////////////////////// List End /////////////////////////////////////////////////////////////////////
-
-
-//////////////////////////////////////// Link /////////////////////////////////////////////////////////////////////////
 const Link = ({widget, preview, linkTextChanged, linkNameChanged, linkDispChanged}) => {
     let inputElem3
     let nameElem
@@ -463,8 +451,6 @@ const dispatchToPropsMapperLink = dispatch =>
     })
 
 const LinkContainer = connect(stateToPropsMapperLink,dispatchToPropsMapperLink)(Link)
-
-//////////////////////////////////////// Link End /////////////////////////////////////////////////////////////////////
 
 
 const Widget = ({widget, preview, dispatch,widgetLength}) => {
