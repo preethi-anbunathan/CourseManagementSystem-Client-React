@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba63a9ad-ed85-4850-8b83-af80ae447658" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/widget.js" afterDir="false" />
-    </list>
+    <list default="true" id="ba63a9ad-ed85-4850-8b83-af80ae447658" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widget.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="widget.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/widget.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="9316">
               <caret line="552" column="13" selection-start-line="552" selection-start-column="13" selection-end-line="552" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widgetList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/widgetList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -156,6 +163,12 @@
               <item name="course-manager-client-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="course-manager-client-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course-manager-client-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course-manager-client-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -208,12 +221,12 @@
       <workItem from="1527189268328" duration="17000" />
       <workItem from="1527601171231" duration="30648000" />
       <workItem from="1527729987239" duration="846000" />
-      <workItem from="1527732190773" duration="517000" />
+      <workItem from="1527732190773" duration="772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64542000" />
+    <option name="totallyTimeSpent" value="64797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -490,16 +503,6 @@
     <entry file="file://$PROJECT_DIR$/src/Style1.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/widgetList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -521,6 +524,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9316">
           <caret line="552" column="13" selection-start-line="552" selection-start-column="13" selection-end-line="552" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/widgetList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
