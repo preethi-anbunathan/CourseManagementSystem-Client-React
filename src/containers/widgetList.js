@@ -59,7 +59,7 @@ class WidgetList extends Component {
                         <span className="slider round"></span>
                     </label>
                 </div>
-                <div className="d-flex pr-2 float-lg-right">
+                <div className="d-flex pr-20 m-auto float-lg-right">
                     <button className="btn btn-success m-auto" hidden={this.props.previewMode}
                             onClick={this.props.save}>
                         Save
