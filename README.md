@@ -2,6 +2,3 @@
  
 ### https://github.com/preethi-anbunathan/CourseManagementSystem
 
-## HEROKU LINK:
-
-### https://course-manager-client-webdev.herokuapp.com/courses
